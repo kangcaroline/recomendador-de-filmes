@@ -21,7 +21,7 @@ function draw() {
     background("white");
     let idade = campoIdade.value();
     let gostaDeFantasia = campoFantasia.checked();
-    let gostaDeAventura = campoAventura.checked();
+    let gostaDeDrama = campoDrama.checked();
     let recomendacao = geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura);
   
     fill(color(76, 0, 115));
